@@ -1,32 +1,3 @@
-// export interface Borrower {
-//   id: string;
-//   name: string;
-//   email: string;
-//   phone: string;
-//   loanType: string;
-//   amount: number;
-//   status: "New" | "review" | "Approved";
-//   creditScore: number;
-//   employment: string;
-//   existingLoan: string;
-//   sourceOfFunds: string;
-//   debtToIncomeRatio: number;
-//   hasIncomeInconsistency: boolean;
-// }
-
-// export interface Broker {
-//   id: string;
-//   name: string;
-//   deals: number;
-//   approvalRate: number;
-//   pending: number;
-// }
-
-// export interface AIFlag {
-//   type: "Income Inconsistency" | "High Debt-to-Income Ratio";
-//   severity: "high" | "medium" | "low";
-//   description: string;
-// }
 export interface Borrower {
   id: string;
   name: string;
